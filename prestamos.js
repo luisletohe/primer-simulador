@@ -3,9 +3,9 @@ const IVA = 0.16
 let monto, plazo, totalPagos, tasaAnual, fechaInicio, fechaPago, tasaMensual, mensualidad, intereses, impuestos,
     capital, insoluto, primerInteres, primerImpuesto, primerCapital, primerInsoluto, primerFechaPago, acumIntereses, acumImpuestos, acumCapital
 
-const dinero = new Intl.NumberFormat('es-MX', {
+const dinero = new Intl.NumberFormat('es-ar', {
     style: 'currency',
-    currency: 'MXN'
+    currency: 'ar'
 })
 
 let establecerDatos = function () {
